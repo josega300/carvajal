@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Asodesc Inc\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add js-cookie next-redux-wrapper react-redux redux redux-devtools-extension redux-thunk
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Asodesc Inc\AppData\Local\Microsoft\WindowsApps;;C:\Users\Asodesc Inc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asodesc Inc\.dotnet\tools;C:\Users\Asodesc Inc\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\Asodesc Inc\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Asodesc Inc\Desktop\carvajal\authentication-example-master\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+      "name": "next-js-jwt-authentication-example",
+      "version": "0.1.0",
+      "private": true,
+      "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start"
+      },
+      "dependencies": {
+          "@hookform/resolvers": "^2.6.1",
+          "express-jwt": "^6.0.0",
+          "jsonwebtoken": "^8.5.1",
+          "next": "^12.2.0",
+          "prop-types": "^15.7.2",
+          "react": "^17.0.2",
+          "react-dom": "^17.0.2",
+          "react-hook-form": "^7.12.1",
+          "rxjs": "^7.3.0",
+          "yup": "^0.32.9"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
